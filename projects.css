@@ -1,0 +1,114 @@
+*,*::before,*::after{
+  margin:0;
+  padding: 0;
+  list-style: none;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,900;1,900&display=swap');
+
+html{
+  scroll-behavior: smooth;
+  cursor:url('./Pictures/cursor.png'), auto;
+  overflow: hidden;
+}
+
+body{
+  background: #EEEEEE;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.page{
+  color: #333533;
+  height: 100vh;
+  display: flex;
+  width: 98%;
+  margin: auto;
+}
+
+h1, h3, a, p{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  text-decoration: none;
+  color: #333533;
+  font-size: 24px;
+}
+
+.leftup{
+  z-index: 10;
+  position: absolute;
+  top: 1%;
+  left: 1%;
+}
+
+.rightup{
+  z-index: 10;
+  position: absolute;
+  top: 1%;
+  right: 1%;
+}
+
+
+nav{
+  display: flex;
+  justify-content: center;
+  align-content: left;
+  flex-direction: column;
+}
+
+nav a{
+  text-align: left;
+  font-size: 5em;
+  font-weight: 900;
+  color: #EEEEEE;
+  text-transform: uppercase;
+  -webkit-text-stroke: 3px #8338EC;
+}
+
+nav a:hover{
+  color: #8338EC;
+  -webkit-text-stroke: 2px #333533;
+}
+
+.leftdown{
+  position: absolute;
+  bottom: 1%;
+  left: 1%;
+}
+.rightdown{
+  position: absolute;
+  bottom: 1%;
+  right: 1%;
+}
+
+@media screen and (max-width:960px) {
+
+  .page{
+    color: #333533;
+    height: 100vh;
+    display: flex;
+    width: 98%;
+    margin: auto;
+  }
+  
+ h3, h1, p, a{
+    font-size: 1em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+    color: #333533;
+  }
+  nav a{
+    text-align: left;
+    font-size: 2em;
+    font-weight: 900;
+    color: #EEEEEE;
+    -webkit-text-stroke: 1px #8338EC;
+  }
+
+  .leftdown, .leftup, .rightdown, .rightup{
+    font-size: 1em;
+  }
+}

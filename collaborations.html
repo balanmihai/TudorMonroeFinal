@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="shortcut icon" type="image/png" href="./Logos/favicon.png">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="collaborations.css">
+  <title>COLLABORATIONS</title>
+</head>
+<body>
+<div class="collaborations">
+
+  <div class="collab2">
+
+    <video id="videoBG2" poster="" autoplay muted loop>
+      <source src="Video content/After movie - My Way 2.0.mp4" type="video/mp4">
+    </video>
+  
+    <div class="contentleft">
+      
+      <div class="up">
+        <h1 class="collaboration">COLLABORATIONS</h1>
+        <a href="index.html" class="leftup">BACK HOME</a>
+      </div>
+
+      <div class="textp2">
+        <p>This material represents a musical trilogy and includes the songs : "Mirrors", "My Way" and "Broken Homes", produced and performed by artist Tudor Monroe, in collaboration with Zamien and Moe Alka.</p>
+
+        <p>Production : Tudor Monroe
+          Vocals : Zamien, Moe Alka
+          Mix / Master : Hugo Allerton
+          Dance and Choreography : Kate Hamilton
+          Styling : Christiaan Jones
+          Directed by Horia Cojan</p>
+
+
+        
+      </div>
+  
+      <div class="down">
+        <div class="text2">
+          <h1>MY WAY</h1>
+        </div>
+      </div>
+  
+    </div>
+    <div class="popup" id="popup-2">
+      <div class="overlay"></div>
+      <div class="content">
+        <div class="close-btn" onclick="togglePopup2()">&times;</div>
+        <h1>PLAY THE SOUNDS</h1>
+        <div class="icons">
+          <a href="https://www.youtube.com/watch?v=uED935lUm8c" target="blank"><img src="https://img.icons8.com/nolan/64/youtube-squared.png"/></a>
+        </div>
+      </div>
+    </div>
+    <button onclick="togglePopup2()" >PLAY THE SOUNDS</button>
+
+    <div class="contentright">
+      <img src="./Pictures/baiatumov2.png" alt="salut">
+      <h1>Moe Alka</h1>
+      <img src="./Pictures/baiatumov1.png" alt="salut">
+      <h1>Zamien</h1>
+    </div>
+  </div>
+
+  <div class="collab1">
+    <video id="videoBG1" poster="" autoplay muted loop>
+      <source src="Video content/WITH YOU video .mp4" type="video/mp4">
+    </video>
+  
+  
+    <div class="contentleft">
+      <div class="up">
+        <h1 class="collaboration">COLLABORATIONS</h1>
+        <a href="index.html" class="back">BACK HOME</a>
+      </div>
+  
+      <div class="textp1">
+        <p>This song as a whole represents me, going through multiple phases during a composition session.
+        </p>
+        <p>
+          Vocals : Tudor Monroe, Bella Maria, Vayo Lawal
+          Music Production : Tudor Monroe 
+          Mix / Master : Tudor Monroe
+        </p>
+  
+  
+          <p>Directed by SAN 
+            DOP : Bogdan Filip, SAN</p>
+          <p>Styled by “notRainproof”
+            Artwork : Moe Alka</p>
+      </div>
+    
+  
+      <div class="down">
+        <div class="text2">
+          <h1>WITH YOU</h1>
+        </div>
+      </div>
+  
+    </div>
+    <div class="popup" id="popup-1">
+      <div class="overlay"></div>
+      <div class="content">
+        <div class="close-btn" onclick="togglePopup()">&times;</div>
+        <h1>PLAY THE SOUNDS</h1>
+        <div class="icons">
+          <a href="https://open.spotify.com/track/5HJGO1p5YcMx8Bg8mWj0Cd?si=duAmkpwuSJivohrIy6mqeg" target="blank"><img src="https://img.icons8.com/nolan/64/spotify.png"/></a>
+          <a href="https://youtu.be/LX3Z9hXz97I" target="blank"><img src="https://img.icons8.com/nolan/64/youtube-squared.png"/></a>
+          <a class="iconupper" href="https://music.apple.com/gb/album/with-you-feat-bella-maria/1536559197?i=1536559200" target="blank"><img src="https://img.icons8.com/nolan/64/mac-os.png"/></a>
+        </div>
+      </div>
+    </div>
+    <button onclick="togglePopup()" >PLAY THE SOUNDS</button>
+  
+    <div class="contentright1">
+      <img src="./Pictures/girl.png" alt="salut">
+      <h1>Bella Maria</h1>
+    </div>
+  
+    </div>
+
+
+
+
+
+</div>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+<script>
+  function togglePopup(){
+  document.getElementById("popup-1").classList.toggle("active");
+}
+
+  function togglePopup2(){
+  document.getElementById("popup-2").classList.toggle("active");
+}
+</script>
+</body>
+</html>
